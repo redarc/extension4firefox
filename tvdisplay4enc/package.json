@@ -1,0 +1,9 @@
+{
+  "name": "tvdisplay4enc",
+  "title": "TVDisplay4ENC",
+  "id": "jid1-YK1TBuEAVD99mA",
+  "description": "display web on TV, auto switch web page and scroll web page if it's length extends screen height",
+  "author": "Aaron Yao",
+  "license": "MPL 2.0",
+  "version": "0.1"
+}
