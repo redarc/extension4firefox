@@ -21,8 +21,7 @@ Cu.import("resource://gre/modules/FileUtils.jsm");
 Cu.import("resource://gre/modules/NetUtil.jsm");
 Cu.import("resource://gre/modules/Services.jsm");
 var parser = Cc["@mozilla.org/xmlextras/domparser;1"].createInstance(Ci.nsIDOMParser);
-//var xmlfile = new FileUtils.File("C:\\Users\\eyaogan\\Desktop\\test.xml");
-//var xmlfile = new FileUtils.File("Desk\\test.xml");
+//var xmlfile = new FileUtils.File("C:\\Users\\XXXX\\Desktop\\test.xml");
 var xmlfile = FileUtils.getFile("Desk", ["tvdisplay.xml"]);
 
 NetUtil.asyncFetch(xmlfile, function(inputStream, status) {
@@ -64,7 +63,7 @@ NetUtil.asyncFetch(xmlfile, function(inputStream, status) {
 				       break;
 			   }  
 		   }
-		   console.log('dddddddddddddddddd');
+		   //console.log('dddddddddddddddddd');
 	   }
 	}
 });
